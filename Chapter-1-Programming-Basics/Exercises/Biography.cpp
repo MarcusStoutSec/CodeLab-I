@@ -3,15 +3,25 @@
 using namespace std;
 
 int main() {
-    string firstName = "Marcus";
-    string lastName = "Stout";
-    string Hometown = "Lympstone";
-    int age = 19;
+    string firstName;
+    string lastName;
+    string hometown;
+    int age;
 
+    cout << "Enter your first name: ";
+    cin >> firstName;
 
-    cout << "Hello! My name is " << firstName << " " << lastName 
-     << ", I'm from " << Hometown << " and I am " << age << " years old." << endl;
+    cout << "Enter your last name: ";
+    cin >> lastName;
+
+    cout << "Enter your hometown: ";
+    cin >> hometown;
+
+    cout << "Enter your age: ";
+    cin >> age;
+
+    cout << "Hello! My name is " << firstName << " " << lastName
+         << ", I'm from " << hometown << " and I am " << age << " years old." << endl;
 
     return 0;
-
 }
