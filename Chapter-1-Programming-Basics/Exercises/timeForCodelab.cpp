@@ -3,7 +3,7 @@
 #include <ctime> 
 using namespace std;
 
-//Program to check if the current day of the week is Friday and the time is 10:00 AM
+
 
 int main() {
     string Time;
@@ -16,15 +16,10 @@ int main() {
     cin >> dayOfWeek;
 
    if (dayOfWeek == "Friday" && Time == "10:00") {
-        cout << "It's time for CodeLab!" << endl;
+        cout << "Time for Codelab" << endl;
     } else {
-        cout << "It's not time for CodeLab yet." << endl;
+        cout << "Not Codelab" << endl;
     }
-
-
-
-
-
 
 
     
